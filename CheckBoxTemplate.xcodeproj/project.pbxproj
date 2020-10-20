@@ -13,6 +13,9 @@
 		04A68C87253F11E9003F0326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A68C86253F11E9003F0326 /* Assets.xcassets */; };
 		04A68C8A253F11E9003F0326 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A68C89253F11E9003F0326 /* Preview Assets.xcassets */; };
 		04A68C8D253F11E9003F0326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A68C8B253F11E9003F0326 /* LaunchScreen.storyboard */; };
+		04A68C95253F12AA003F0326 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A68C94253F12AA003F0326 /* CheckBoxView.swift */; };
+		04B3F394253F1CBF00917FAA /* CircularCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F393253F1CBF00917FAA /* CircularCheckBox.swift */; };
+		04B3F396253F1EA000917FAA /* CapsuleCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3F395253F1EA000917FAA /* CapsuleCheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		04A68C89253F11E9003F0326 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04A68C8C253F11E9003F0326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A68C8E253F11E9003F0326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A68C94253F12AA003F0326 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		04B3F393253F1CBF00917FAA /* CircularCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCheckBox.swift; sourceTree = "<group>"; };
+		04B3F395253F1EA000917FAA /* CapsuleCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleCheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,9 @@
 		04A68C74253F11E6003F0326 = {
 			isa = PBXGroup;
 			children = (
+				04B3F395253F1EA000917FAA /* CapsuleCheckBox.swift */,
+				04A68C94253F12AA003F0326 /* CheckBoxView.swift */,
+				04B3F393253F1CBF00917FAA /* CircularCheckBox.swift */,
 				04A68C7F253F11E6003F0326 /* CheckBoxTemplate */,
 				04A68C7E253F11E6003F0326 /* Products */,
 			);
@@ -147,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A68C81253F11E6003F0326 /* AppDelegate.swift in Sources */,
+				04B3F394253F1CBF00917FAA /* CircularCheckBox.swift in Sources */,
 				04A68C83253F11E6003F0326 /* SceneDelegate.swift in Sources */,
 				04A68C85253F11E6003F0326 /* ContentView.swift in Sources */,
+				04B3F396253F1EA000917FAA /* CapsuleCheckBox.swift in Sources */,
+				04A68C95253F12AA003F0326 /* CheckBoxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
